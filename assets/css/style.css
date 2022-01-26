@@ -30,6 +30,10 @@ textarea {
   border-radius: 15px;
 }
 
+.form-control {
+  border: none;
+}
+
 .row {
   white-space: pre-wrap;
   height: 80px;
@@ -65,7 +69,15 @@ textarea {
   color: white;
 }
 
-.saveBtn i:hover {
-  font-size: 20px;
+.saveBtn img {
+  max-height: 80px;
+  padding: 20px;
+  opacity:0.4;
+  filter:alpha(opacity=40);
+}
+
+.saveBtn img:hover {
   transition: all 0.3s ease-in-out;
+  opacity:1.0;
+  filter:alpha(opacity=100);
 }
